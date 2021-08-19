@@ -1,0 +1,94 @@
+<link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form_style.css">
+	<div id="stb_subscribe">
+		<div class="stb_header">
+			<img src="https://s3.ap-northeast-2.amazonaws.com/img.stibee.com/26703_list_64956_subscriptions_header_image.png?v=1619935932">
+		</div>
+		<form action="https://stibee.com/api/v1.0/lists/WhgAl7-a5d94kGH0tdxzBnkFpBR4/public/subscribers" method="POST" target="_blank" accept-charset="utf-8" class="stb_form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate="">
+			<h1 class="stb_form_title">예술 뉴스레터 | 플롯레터 무료 구독</h1>
+			<p class="stb_form_description">👻: 나 ,유령이가 전하는 쉽고 재밌는 문화예술 뉴스레터예령~<br><br>🖐 : 안녕하세요, "예술은 원래 쉽다" 플롯레터입니다!<br><br>매주 월요일과 목요일, 플로터 분들께 미처 알지 못했던 연극과 예술 이야기를 들려드리고 있죠.<br>매달 연극과 전시 할인권 등 플롯 단독 문화 할인 혜택도 제공해드리고 있으니 무료 구독해 보세요!<br><br>✔️ 하단의 신청 폼을 입력해주시면 구독 확인 메일이 전송될 거예요! :)<br>✔️ 구독 확인 메일 내 확인 버튼을 한 번 더 눌러주시면 구독 완료!<br><br>👇 지난 플롯레터 읽어보기<br>https://charmed-close-b97.notion.site/c73a1d0891e943b5b8b0db9457b91173</p>
+			<fieldset class="stb_form_set">
+				<label for="stb_email" class="stb_form_set_label">
+					이메일 주소(필수 입력)
+				</label>
+				<input type="email" class="stb_form_set_input" id="stb_email" name="email" required="required">
+				
+				<div class="stb_form_msg_error" id="stb_email_error"></div>
+			</fieldset><fieldset class="stb_form_set">
+				<label for="stb_name" class="stb_form_set_label">
+					이름(닉네임)
+				</label>
+				
+				<input type="text" class="stb_form_set_input" id="stb_name" name="name">
+				<div class="stb_form_msg_error" id="stb_name_error"></div>
+			</fieldset><fieldset class="stb_form_set">
+				<label for="stb_way" class="stb_form_set_label">
+					플롯레터를 알게 된 경로
+				</label>
+				
+				<input type="text" class="stb_form_set_input" id="stb_way" name="way">
+				<div class="stb_form_msg_error" id="stb_way_error"></div>
+			</fieldset><fieldset class="stb_form_set">
+				<label for="stb_gender" class="stb_form_set_label">
+					성별
+				</label>
+				
+				<input type="text" class="stb_form_set_input" id="stb_gender" name="gender">
+				<div class="stb_form_msg_error" id="stb_gender_error"></div>
+			</fieldset><fieldset class="stb_form_set">
+				<label for="stb_age" class="stb_form_set_label">
+					연령대(ex. 20대)
+				</label>
+				
+				<input type="text" class="stb_form_set_input" id="stb_age" name="age">
+				<div class="stb_form_msg_error" id="stb_age_error"></div>
+			</fieldset>
+
+			
+
+			<div class="stb_form_policy">
+				<label>
+					<input type="checkbox" id="stb_policy" value="stb_policy_true">
+					<button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn" type="button">개인정보 수집 및 이용</button>에 동의합니다.
+				</label>
+				<div class="stb_form_msg_error" id="stb_policy_error"></div>
+				<div class="stb_form_modal stb_form_policy_text blind" id="stb_form_policy_modal">
+					<div class="stb_form_modal_body">
+						<h1 class="stb_form_modal_title">개인정보 수집 및 이용</h1>
+						<p class="stb_form_modal_text">구독자 여러분께 맞춤형 혜택을 제공하고자 뉴스레터 발송을 위한 최소한의 개인정보를 수집하고 이용합니다. 수집된 정보는 발송 외 다른 목적으로 이용되지 않으며, 서비스가 종료되거나 구독을 해지할 경우 즉시 파기됩니다.</p>
+						<div class="stb_form_modal_btn">
+							<button id="stb_form_modal_close" class="stb_form_modal_close_btn" data-modal="stb_form_policy_modal" type="button">닫기</button>
+						</div>
+					</div>
+					<div class="stb_form_modal_bg" id="stb_form_modal_bg"></div>
+				</div>
+			</div>
+
+			<div class="stb_form_policy">
+				<label>
+					<input type="checkbox" id="stb_ad_agreement" value="stb_ad_agreement_true">
+					<button id="stb_form_ad_modal_open" data-modal="stb_form_ad_agreemnet_modal" class="stb_form_modal_open_btn" type="button">광고성 정보 수신</button>에 동의합니다.
+				</label>
+				<div class="stb_form_msg_error" id="stb_ad_agreement_error"></div>
+				<div class="stb_form_modal stb_form_policy_text blind" id="stb_form_ad_agreemnet_modal">
+					<div class="stb_form_modal_body">
+						<h1 class="stb_form_modal_title">광고성 정보 수신</h1>
+						<p class="stb_form_modal_text">제휴 콘텐츠, 프로모션, 이벤트 정보 등의 광고성 정보를 수신합니다.</p>
+						<div class="stb_form_modal_btn">
+							<button id="stb_form_ad_modal_close" class="stb_form_modal_close_btn" data-modal="stb_form_ad_agreemnet_modal" type="button">닫기</button>
+						</div>
+					</div>
+					<div class="stb_form_ad_modal_bg" id="stb_form_modal_bg"></div>
+				</div>
+			</div>
+
+			
+			
+			<div class="stb_form_result" id="stb_form_result">
+			</div>
+
+			<fieldset class="stb_form_set_submit">
+				<button type="submit" class="stb_form_submit_button" id="stb_form_submit_button" style="background-color: rgb(152, 0, 57); color: rgb(255, 255, 255);">구독 신청하기</button>
+			</fieldset>
+			</form>
+		</div>
+	<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script><script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form.js"></script>
